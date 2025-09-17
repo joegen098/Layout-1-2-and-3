@@ -1,0 +1,49 @@
+body {
+  background: #fff;
+}
+
+.layout2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 15px;
+  border: 5px solid cyan;
+  border-radius: 15px;
+  background: #000; 
+  box-shadow: 0 0 20px blue;
+  color: whitesmoke;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.layout2 > div {
+  border: 2px white solid;
+  margin: 2px;
+  padding: 30px
+}
+
+.a{
+  grid-column: span 6;
+  grid-row: span 3
+}
+
+.b {
+  grid-row: span 18;
+}
+
+.c {
+  grid-row: span 15;
+  grid-column: span 3
+}
+
+.d {
+  grid-row: span 15;
+  grid-column: span 3
+  
+}
+
+.e {
+  grid-column: span 7;
+  grid-row: span 3
+}
