@@ -1,0 +1,45 @@
+body {
+  background: none;
+}
+
+.layout1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 15px;
+  border: 5px solid cyan;
+  border-radius: 15px;
+  background: lightcyan;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%
+}
+
+.layout1 > div {
+  border: 2px black solid;
+  margin: 2px;
+}
+
+.a{
+  grid-column: span 5;
+  grid-row: span 3
+}
+
+.b {
+  grid-row: span 14
+}
+
+.c {
+  grid-column: span 4
+}
+
+.d {
+  grid-column: span 4;
+  grid-row: span 11
+}
+
+.e {
+  grid-column: span 4;
+  grid-row: span 2
+}
